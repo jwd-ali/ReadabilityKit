@@ -32,6 +32,7 @@ Extracts:
 - [x] Top image
 - [x] Top video
 - [x] Keywords
+- [x] Published Date
 
 ## Requirements
 
@@ -47,6 +48,7 @@ Readability.parse(url: articleUrl, completion: { data in
     let keywords = data?.keywords
     let imageUrl = data?.topImage
     let videoUrl = data?.topVideo
+    let publishedDate = data?.datePublished
 })
 ```
 
