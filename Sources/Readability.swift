@@ -645,7 +645,7 @@ open class Readability {
 				var keywords = [String]()
 				values.forEach { (value: String) in
 					var separatorsCharacterSet = CharacterSet.whitespacesAndNewlines
-					separatorsCharacterSet.formUnion(NSCharacterSet.punctuationCharacters)
+					separatorsCharacterSet.formUnion(CharacterSet.punctuationCharacters)
 					keywords.append(contentsOf: value.components(separatedBy: separatorsCharacterSet))
 				}
 
