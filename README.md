@@ -1,4 +1,4 @@
-<img src="https://github.com/exyte/ReadabilityKit/blob/master/header.png">
+<img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
 <img align="right" src="https://raw.githubusercontent.com/exyte/ReadabilityKit/master/Assets/demo.gif" width="480" />
 
 <p><h1 align="left">ReadabilityKit</h1></p>
